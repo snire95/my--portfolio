@@ -11,14 +11,14 @@ export default function NavBar() {
      className="inflex-flex item-conter py-6 px-3 mr-4 text-red-100 hover:text-blue-800 text-4xl font-bold cursive traking-widest " >
       Snir
      </NavLink>
-     <NavLink to="/post" className="inline-flex items-center py-3 px-3 my-6 rounded text-red-100 hover:text-blue-500"      activeClassName="bg-blue-700"
+     <NavLink to="/post" className="inline-flex items-center py-3 px-3 my-6 rounded text-red-100 hover:text-blue-500"      activeClassName="bg-blue-500"
 >
       Blog Posts
      </NavLink>     
-     <NavLink to="/project" className="inline-flex items-center py-3 px-3 my-6 rounded text-red-100 hover:text-blue-500" activeClassName="bg-blue-700">
+     <NavLink to="/project" className="inline-flex items-center py-3 px-3 my-6 rounded text-red-100 hover:text-blue-500" activeClassName="bg-blue-500">
       Projects
      </NavLink>
-     <NavLink to="/about" className="inline-flex items-center py-3 px-3 my-6 rounded text-red-100 hover:text-blue-500" activeClassName="bg-blue-700">
+     <NavLink to="/about" className="inline-flex items-center py-3 px-3 my-6 rounded text-red-100 hover:text-blue-500" activeClassName="bg-blue-500">
       About me!
      </NavLink>
     </nav>
