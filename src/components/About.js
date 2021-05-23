@@ -22,8 +22,8 @@ export default function About() {
  },[])
  if(!author) return <div>Loading...</div>
  return (
-  <main className="relative">
-   <div className="bg-blue-100 p-10 lg:pt-48 container mx-auto ralative">
+  <main className=" min-h-screen bg-blue-100 relative">
+   <div className="p-10 lg:pt-48 container mx-auto ralative">
     <section className="bg-blue-800 rounded-lg shadow-2xl lg:flex p-20">
      <img src={urlFor(author.authorImage).url()} className="roubded w-32 h-32 lg:w-64 lg:h-64 mr-8" alt={author.name}/>
      <div className=" text-lg flex flex-col justify-center">
